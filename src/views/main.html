@@ -1,0 +1,133 @@
+<main>
+    <div class="main__container" id="welcome">
+        <h1>BIENVENIDOS A SOBRE RUEDAS</h1>
+        <div class="main__container_cards">
+            <p>
+                Me llamo Laura y soy una aficionada al mundo de los patines.
+                Pese a ser una principiante, es un deporte que me ha conquistado
+                por completo. Es por ello que quería dedicar un pequeño espacio
+                para dar información a aquellas personas interesadas en formar
+                parte de este mundo.
+            </p>
+        </div>
+    </div>
+
+    <div class="main__container" id="about">
+        <h2>¿Qué es?</h2>
+        <div class="main__container_description">
+        <blockquote cite="https://es.wikipedia.org/wiki/Patinaje_art%C3%ADstico_sobre_ruedas">
+            <p>El patinaje sobre ruedas es una disciplina deportiva de
+                deslizamiento en la que los participantes hacen figuras, saltos,
+                piruetas y otros ejercicios técnicos utilizando patines sobre
+                ruedas. Requiere una buena preparación física y una gran capacidad
+                de concentración. Se puede competir en varias categorías: patinaje
+                libre, figuras obligatorias, patinaje artístico, parejas de danza,
+                Solo Dance, grupos Show, cuartetos y patinaje sobre ruedas en línea
+                (in-line).</p>
+            <cite class="cite__description">Fuente: Wikipedia</cite>
+        </blockquote>
+        <img
+        class="main__container_img main__container_img--height"
+        src="./assets/images/roller-family.jpg"/>
+        </div>
+    </div>
+
+    <div class="main__container" id="roller-type">
+        <h2>Tipos de patines</h2>
+        <div class="main__container_cards">
+            <div class="main__container_card">
+                <img
+                    class="main__container_img"
+                    src="./assets/images/roller-quad.jpg"
+                />
+                <h3>Rollerquad - A 4 ruedas</h3>
+                <p>
+                    Este tipo de patines tiene una mayor estabilidad, perfectos
+                    para principiantes, pues se sienten más seguros y estables.
+                    Este tipo de patines son utlizados en interior, con un suelo
+                    poco irregular y confortable.
+                </p>
+            </div>
+            <div class="main__container_card">
+                <img
+                    class="main__container_img"
+                    src="./assets/images/roller-line.jpg"
+                />
+                <h3>Rollers in Line - En línea</h3>
+                <p>
+                    Es más difícil encontrar el equilibrio en este tipo de
+                    patines, pero cuando se consigue, en realidad tenemos más
+                    control en las curvas y movimientos que los patines a 4
+                    ruedas. Son menos sensibles a las irregularidades el suelo.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main__container" id="roller-technics">
+        <h2>Disciplinas del patinaje</h2>
+        <dl class="main__container_technics">
+            <dt class="dt__title">
+                <i class="fa-solid fa-star dt__title-mark"></i> Artístico
+            </dt>
+            <dd class="dt__description">
+                El patinaje artístico, o PAL, consiste en realizar piruetas,
+                saltos, giros y acrobacias durante una pieza musical. Este tipo
+                de patinaje es valorado por jueces, quienes tienen en cuenta
+                tanto el aspecto técnico como la interpretación artística en su
+                ejecución.
+            </dd>
+
+            <dt class="dt__title">
+                <i class="fa-solid fa-star dt__title-mark"></i> Freestyle
+            </dt>
+            <dd class="dt__description">
+                El freestyle es una disciplina muy técnica, ya que consta en
+                realizar diferentes trucos utilizando conos pequñeos a
+                diferentes distancias (puestos en fila en el suelo). Se necesita
+                un gran equilibrio, constancia, control sobre los patines y
+                mucha fluidez.
+            </dd>
+
+            <dt class="dt__title">
+                <i class="fa-solid fa-star dt__title-mark"></i> Velocidad
+            </dt>
+            <dd class="dt__description">
+                La modalidad de patinaje de velocidad demanda una gran
+                preparación física y mental. Es un deporte aeróbico, que se
+                combina con fuerza, habilidad y resistencia.
+            </dd>
+
+            <dt class="dt__title">
+                <i class="fa-solid fa-star dt__title-mark"></i> Otras modalidades
+            </dt>
+            <dd class="dt__description">
+                Existen otras modalidades, como son el freeskate o el hockey en
+                linea.
+            </dd>
+        </dl>
+    </div>
+
+    <div class="main__container">
+        <h3>Apuntate a la Newsletter!</h3>
+        <form action="" method="get" class="main__container_form">
+            <div class="main__container_input">
+                <label for="name"
+                    ><i class="fa-solid fa-user"></i> Tu nombre:
+                </label>
+                <input type="text" name="name" id="name" required />
+            </div>
+            <div class="main__container_input">
+                <label for="email"
+                    ><i class="fa-solid fa-envelope"></i> Tu correo electrónico:
+                </label>
+                <input type="email" name="email" id="email" required />
+            </div>
+            <div class="main__container_input">
+                <button class="button button--primary" type="submit">
+                    Enviar
+                </button>
+            </div>
+        </form>
+    </div>
+</main>

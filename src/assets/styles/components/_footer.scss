@@ -1,0 +1,35 @@
+.footer {
+  background-color: $color-white;
+  padding-top: 5rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-bottom: 2rem;
+  color: $color-purple;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  --mask:
+    radial-gradient(91.18px at 50% 127.20px,#000 99%,#0000 101%) calc(50% - 106px) 0 / 212px 100%,
+    radial-gradient(91.18px at 50% -74.2px,#0000 99%,#000 101%) 50% 53px / 212px 100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  @include for-mobile {
+    flex-direction: column;
+    gap: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  &__social_icons {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-size: $font-xl;
+    padding-top: 0.5rem;
+  }
+  &__social_link {
+    padding-right: 1rem;
+  }
+  &__copy {
+    line-height: 1.5rem;
+  }
+}

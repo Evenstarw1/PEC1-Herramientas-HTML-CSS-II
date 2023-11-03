@@ -1,0 +1,24 @@
+@use "sass:color";
+
+/**** FONTS FAMILY ****/
+$font-family-pangolin: 'Nanum Pen Script', cursive;
+$font-family-quicksand: 'Quicksand', sans-serif;
+
+/**** COLOURS ****/
+$background-color-body: #FFEF9E;
+$background-color-header: #F25790;
+$primary-text-color: #382a61;
+$color-white: #FFFFFF;
+$color-purple: #774eb8;
+$color-light-blue: #B3DDE8;
+$color-blue: #33bdef;
+$color-pink: #ff80ae;
+
+/***** SIZES *****/
+$font-xs: 0.5rem;
+$font-s: 0.75rem;
+$font-m: 1rem;
+$font-l: 1.5rem;
+$font-xl: 1.8rem;
+$font-xxl: 2rem;
+$font-xxxl: 2.5rem;
